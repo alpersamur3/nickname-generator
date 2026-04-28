@@ -1,0 +1,38 @@
+{
+  "name": "@alpersamur3/nickname-generator",
+  "version": "1.0.0",
+  "description": "A poetic, combinatorial nickname generator. Ships with Turkish word lists by default — fully replaceable with any language.",
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "nickname", "nickname-generator", "username", "username-generator",
+    "random-name", "random-name-generator", "display-name", "handle",
+    "generator", "word-generator", "combinatorial",
+    "turkish", "türkçe", "poetic", "random",
+    "gaming", "gamer-tag", "gamertag", "discord", "twitch",
+    "social-media", "avatar-name", "bot-name",
+    "ascii", "slug", "no-dependencies"
+  ],
+  "author": "alpersamur3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alpersamur3/nickname-generator.git"
+  },
+  "homepage": "https://github.com/alpersamur3/nickname-generator#readme",
+  "bugs": {
+    "url": "https://github.com/alpersamur3/nickname-generator/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
